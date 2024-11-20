@@ -8,7 +8,19 @@
 <body>
     <form>
         <label>for="">Name</label>
-    </form>
+        <input type="text">
+        <br>
+        <label>for="">Email</label>
+        <input type="text">
+        <br>
+        <label>for="">obile</label>
+        <input type="text">
+        <br>
+        <label>for="">Address</label>
+        <input type="text">
+        <br>
+
+        </form>
     
 </body>
 </html>
