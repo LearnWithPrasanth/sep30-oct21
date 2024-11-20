@@ -1,0 +1,72 @@
+h1{
+    color: blue;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+h2{
+    color: chocolate;
+    font-size:x-large;
+    text-decoration-line: underline;
+}
+p1{
+    color: coral;
+    font-style: oblique;
+    text-decoration:underline;
+}
+p2{
+    color: blue;
+    font-style: italic;
+    text-decoration:underline;
+}
+p3{
+    color: blueviolet;
+    font-style: oblique;
+    text-decoration: dotted;
+}
+p4{
+    color: cadetblue;
+    font-style: normal;
+    text-decoration: underline;
+}
+p5{
+    color: chartreuse;
+    font-style: oblique;
+    text-decoration: underline;
+}
+p6{
+    color: cornflowerblue;
+    font-style: oblique;
+    text-decoration: underline;
+
+}
+p7{
+    color: blue;
+    font-style:oblique;
+}
+p8{
+    color: crimson;
+    font-style:italic;
+
+}
+p9{
+    color: darkgoldenrod;
+}
+p10{
+    color: aqua;
+    font-style: oblique;
+}
+p11{
+    color: brown;
+    font-style: italic;
+}
+thead{
+    color: blue;
+    font-style:oblique;
+    text-decoration-line: underline;
+}
+tr{
+    color: darkmagenta;
+}
+td{
+    color: darkviolet;
+}

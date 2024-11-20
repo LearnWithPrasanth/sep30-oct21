@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT INFORMATION</title>
+    <link rel="stylesheet" href="Application.css">
+</head>
+<body>
+    <h1>STUDENT INFORMATION</h1>
+    <form method="get">
+        <p1>
+            <label for="Name">NAME :</label>
+            <input type="text" name="name" id="name" >
+        </p1>
+        
+        <br>
+        <br>
+        <p2>
+        <label for="email">EMAIL ID :</label>
+        <input type="email" name="email" value="" required>
+        </p2>
+        <br>
+        <br>
+        <p3>
+        <label for="mobile">MOBILE NO :</label>
+        <input type="mobile" name="mobile">
+        </p3>
+        <br>
+        <br>
+        <p4>
+        <label for="ADDRESS">ADDRESS :</label>
+        <input type="address"  name="address">
+        </p4>
+        <br>
+        <br>
+        <p5>
+        <label>GENDER :</label>
+        </p5>
+        <p7>
+        <input type="radio" name="gender" id="male" value="male">
+        <label>MALE</label>
+        </p7>
+        <p8>
+        <input type="radio" name="gender" id="female" value="female">
+        <label>FEMALE</label>
+        </p8>
+
+        <br>
+        <br>
+        <p6>
+        <label>SKILLS :</label>
+        </p6>
+        <p9>
+        <input type="checkbox" name="skills" id="java" value="java">
+        <label>JAVA</label></p9>
+        <p10>
+        <input type="checkbox" name="skills" id="python" value="python">
+        <label>PYTHON</label></p10>
+        <p11>
+        <input type="checkbox" name="skills" id="sap" value="sap">
+        <label>SAP</label></p11>
+        <br><br>
+    </form>
+    <table border="1">
+        <h2>STUDIES</h2>
+        <thead>
+            <th>STUDIES</th>
+            <th>SCHOOL/COLLEGE</th>
+            <th>YEAR OF COMPLETION</th>
+            <th>PERCENTAGE</th>
+        </thead>
+        <tbody>
+            <tr>
+                 <td>UG/PG</td>
+                 <td><input type="name" name="name"></td>
+                 <td><input type="date" name="date"></td>
+                 <td><input type="percentage" name="percentage"></td>
+            </tr>
+            <tr>
+                <td>INTER/DIPLOMA</td>
+                <td><input type="name" name="name"></td>
+                <td><input type="date" name="date"></td>
+                <td><input type="percentage" name="percentage"></td>
+            </tr>
+            <tr>
+                <td>SCHOOL</td>
+                <td><input type="name" name="name"></td>
+                <td><input type="date" name="date"></td>
+                <td><input type="percentage" name="percentage"></td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <button type="reset">RESET</button>
+    <button type="submit">SUBMIT</button>
+</body>
+</html>
