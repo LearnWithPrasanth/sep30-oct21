@@ -1,3 +1,39 @@
 h1 {
-    color: aquamarine;
-}
+
+    color: aqua;
+    }
+    
+    p {
+    color: rgb(76, 9, 245);
+    }
+    p1 {
+    color: rgb(11, 243, 11);
+    }
+    p2 {
+    color: brown;
+    }
+    p3{
+    color: rgb(15, 244, 244);
+    }
+    
+    .my-container {
+    background-color: white;
+    text-align:left;
+    
+    }
+    
+    .my-container1 {
+    text-align: right;
+    }
+    p4 {
+    color: rgb(10, 250, 30);
+    }
+    
+    p5{
+    color: rgb(4, 4, 131);
+    
+    }
+    
+    p6 {
+    color: rgb(255, 12, 12);
+    }
