@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Profile Card */
+.profile-card {
+    background-color: #fff;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.profile-header {
+    background-color: #6c63ff;
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-top: 20px;
+}
+
+.profile-body {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.bio {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.profile-footer {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #6c63ff;
+    border-radius: 5px;
+    font-size: 0.9em;
+    margin: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #5149c3;
+}
+
+.btn-alt {
+    background-color: #ff6b6b;
+}
+
+.btn-alt:hover {
+    background-color: #d75555;
+}
