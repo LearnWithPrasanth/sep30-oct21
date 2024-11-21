@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            forms
+        </title>
+        <style>
+            body{
+                background-color: rgb(147, 251, 251);
+                color:black;
+                font-size: 18px;
+            }
+            .reset{
+                background-color: green;
+                border-radius: 3px;
+                padding: 5px;
+            }
+            .reset:hover{
+                cursor: pointer;
+                background-color: rgb(201, 6, 6);
+                border: 1px solid;
+                border-radius: 4px;
+                
+
+            }
+            .submit{
+                background-color: rgb(255, 217, 0);
+                border-radius: 3px;
+                margin-left: 10px;
+                padding: 5px;
+            }
+            .submit:hover{
+                background-color: rgb(255, 0, 255);
+            }
+            .form{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+        <h1 class="form"> Internship Form</h1>
+        <h4>Enter your name :</h4>
+        <input type="text">
+        <h4> enter your email :</h4>
+        <input type="text">
+        <h4> enter your password :</h4>
+        <input type="text">
+        <h4> enetr your age :</h4>
+        <input type="text">
+        <h4> gender :</h4>
+        <label for="male"> male</label>
+        <input type="radio" name="gender" id="male">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="female">
+        <h4> skills :</h4>
+        <label for="c">c</label>
+        <input type="checkbox" name="c" id="c">
+        <label for="c++">c++</label>
+        <input type="checkbox" name="c++" id="c++">
+        <label for="python">python</label>
+        <input type="checkbox" name="python" id="python">
+        <label for="java">java</label>
+        <input type="checkbox" name="java" id="java">
+        <label for="javascript">javascript</label>
+        <input type="checkbox" name="javascript" id="javascript">
+        <h4> how many months you want to participate in internship program</h4>
+        <input type="text">
+        <select name="dropdown">
+            <option value=""></option>
+            <option>3 months</option>
+            <option value="">6 months</option>
+        </select>
+        <h4> upload your resume</h4>
+        <input type="file" placeholder="choose file">
+        <button class="reset"> reset</button>
+        <button class="submit">submit</button>
+
+
+
+    
+
+    </div>
+
+
+    </body>
+</html>
