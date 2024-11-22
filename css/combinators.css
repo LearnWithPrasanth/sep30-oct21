@@ -1,0 +1,19 @@
+/* Descendant */
+/* .navbar a{
+    color: red;
+} */
+
+/* Child */
+.navbar > a{
+    color: red;
+}
+
+/* Adjacent Sibling */
+/* h1 + a {
+    color: green;
+} */
+
+/* Far Sibling */
+h1 ~ a {
+    color: green;
+}
