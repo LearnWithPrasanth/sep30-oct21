@@ -1,0 +1,12 @@
+h2{
+    font-size: 40px;
+    color: brown;
+}
+p{
+    padding: 20px;
+    margin: 20px;
+    font-size: 22px;
+}
+body{
+    text-align: left;
+}

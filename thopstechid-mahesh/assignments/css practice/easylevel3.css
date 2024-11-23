@@ -1,0 +1,11 @@
+div {
+    font-size: 20px;
+    border: 0.5px solid red;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(179, 246, 223, 0.915);
+
+}
+div p{
+    color: green;
+}
