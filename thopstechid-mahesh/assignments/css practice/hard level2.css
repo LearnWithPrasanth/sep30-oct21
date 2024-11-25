@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mac{
+    border: 4px double brown;
+    padding: 30px;
+    margin: 30px;
+    font-size: 18px;
+
+}
+.max{
+    border: 4px double brown;
+    padding: 30px;
+    margin: 30px;
+    font-size: 18px;
+    
+}
+.enfield{
+    border: 4px double brown;
+    padding: 30px;
+    margin: 30px;
+    font-size: 18px;
+}
+div li{
+    color: blue;
+    font-size: 20px;
+}
+h1{
+    color: chartreuse;
+}
+span{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    line-height: 1.3;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}

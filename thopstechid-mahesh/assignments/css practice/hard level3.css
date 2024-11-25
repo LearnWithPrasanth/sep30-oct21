@@ -1,0 +1,39 @@
+body{
+    font-size: 18px;
+
+}
+h1{
+    font-size: 50px;
+    color:blue;
+    text-decoration: underline brown;
+    text-align: center;
+}
+
+ul span{
+    color: blue;
+}
+h2 span{
+    
+    color: orange;
+}
+h2 {
+    font-size: 35px;
+    font-family: sans-serif;
+}
+div p{
+    font-size: 17.5px;
+    width: 600px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blueviolet;
+}
+div {
+    padding: 40px;
+    margin: 40px;
+    border: 3px solid green;
+
+}
