@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            forms
+        </title>
+        
+    </head>
+    <body>
+        <form style="font-size: 17px;" align="center">
+            <label for=""> name</label>
+             <input type="text" name="name"><br>
+             <br>
+             <label for=""> email</label>
+             <input type="text" name="email"><br>
+             <br>
+             <label for=""> mobile</label>
+            <input type="number" name="mobile"><br>
+            <br>
+
+            <label> gender</label>
+            <input type="radio" name="gender" id="male">
+            <label for="male"> male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female"> female</label><br>
+            <br>
+
+            <label> skills</label>
+            <label for=""> python</label>
+            <input type="checkbox" name="python" id="python">
+            <label for=""> java</label>
+            <input type="checkbox" name="java" id="java">
+            <label for=""> SQL</label>
+            <input type="checkbox" name="SQL" id="SQL"><br>
+            <br>
+
+            <label for="state"> state</label>
+            <select style="margin-bottom: 20px;" name="state" id="state">
+                <option value="select"> select</option>
+                <option value="ap"> andhra pradesh</option>
+                <option value="ts"> telangana</option>
+                <option value="ka"> karnataka</option>
+                
+            </select>
+            <br>
+            <label style="margin-bottom: 10px;" for="state">state</label>
+            <input name="" id="state" list="state-list" >
+            <datalist id="state-list">
+                <option value=""> select</option>
+                <option value="andhra pradesh"></option>
+                <option value="telangana"></option>
+                <option value="karnataka"></option>
+
+            </datalist><br>
+
+            <input style="margin-top: 20px;" type="date">
+
+
+            <br>
+
+
+            <button style="margin-top: 10px;"> reset</button>
+            <button style="margin-top: 10px;"> submit</button>
+            
+            
+        </form>
+    </body>
+</html>
