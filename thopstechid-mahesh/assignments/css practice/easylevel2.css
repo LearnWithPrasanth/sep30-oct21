@@ -1,0 +1,14 @@
+body{
+    font-size: 20px;
+    line-height: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+.moral{
+    color: rgb(119, 2, 228);
+}
+#respect {
+    border: 3px dotted yellow;
+    padding-left: 5px;
+
+}

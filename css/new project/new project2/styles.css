@@ -1,0 +1,30 @@
+/* invitation style*/
+body{
+    background-color:moccasin;
+    justify-content: center;
+    margin:0 ;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-size: 16px;
+    
+
+}
+
+    
+
+.names{
+    color: rgb(241, 122, 142);
+    font-size: 18px;
+}
+.girlname{
+color: rgb(85, 189, 223);
+}
+.time{
+    color: rgb(245, 98, 123);
+    
+}
+
