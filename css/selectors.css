@@ -1,0 +1,34 @@
+/* Universal Selector */
+* {
+    /* margin: 0;
+    padding: 0; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Element Selector */
+h1 {
+    color: rebeccapurple;
+}
+
+/* Class Selector */
+.common {
+    color: red;
+}
+
+.universe {
+    font-size: 20px;
+}
+
+.element {
+    font-size: 30px;
+}
+
+/* ID Selector */
+#id1 {
+    color: brown;
+}
+
+/* Attribute Selector */
+a[href] {
+    color: aquamarine;
+}

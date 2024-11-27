@@ -1,0 +1,42 @@
+/* 
+CSS Positions
+
+1. Static
+2. Fixed
+3. Sticky
+4. Absolute
+5. Relative
+*/
+
+.fixed {
+    background-color: burlywood;
+
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+}
+
+.absolute1 {
+    background-color: bisque;
+
+    position: absolute;
+    right: 10px;
+    top: 1px;
+}
+
+.relative {
+    border: solid;
+    height: 300px;
+
+    position: relative;
+}
+
+.absolute2 {
+    position: absolute;
+    bottom: 0;
+}
