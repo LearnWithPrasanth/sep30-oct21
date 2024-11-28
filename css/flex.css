@@ -1,0 +1,40 @@
+/* Styles for explanation */
+.flex-box {
+    border: 2px solid red;
+    height: 400px;
+}
+
+.flex-item {
+    border: 2px solid;
+    margin: 5px;
+}
+/* Styles for explanation */
+
+
+/* Flex box code starts here */
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+
+}
+
+.flex-item-3 {
+    flex-shrink: 0;
+    /* align-self: center; */
+    order: 2;
+}
+
+.flex-item-2 {
+    /* flex-grow: 2; */
+    order: 1;
+}
+
+.flex-item-1 {
+    /* flex-grow: 1; */
+    flex-basis: 10px;
+    order: 3;
+}
