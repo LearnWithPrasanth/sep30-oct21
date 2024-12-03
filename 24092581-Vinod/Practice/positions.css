@@ -1,0 +1,24 @@
+.absolute1 {
+    background-color: bisque;
+    position: absolute;
+    top: 1px;
+}
+
+.relative {
+    border: solid;
+    height: 667px;
+    width: 560px;
+    position: relative;
+    padding:27px;
+    margin: 20px;
+}
+
+.absolute2 {
+    position: absolute;
+    top: 320px;
+    right: 192px; 
+    font-size: 25px;
+    color: floralwhite;
+    background-color: black;
+    padding: 20px;
+}
