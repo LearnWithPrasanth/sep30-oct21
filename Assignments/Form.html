@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form With CSS</title>
+    <style>
+         option
+         {
+            color: rgb(36, 10, 152);
+         }
+    </style>
+</head>
+<body style="Background-color: rgb(192, 213, 108); font-family:cursive;">
+    <h1 style="color:Red; font-family:cursive; text-align: center;">College Registration Form</h1>
+    <p style="color:Blue">Please fill the below college registration form</p>
+    <form style="color:rgb(136, 52, 7)">
+        <fieldset>
+        <fieldset>
+            <legend style="color:black;">Personal_Details</legend>
+        <label for="FirstName"> FirstName</label>
+        <input Type="text" Name="FirstName" id="FirstName">
+        <br>
+        <label for="LastName"> LastName</label>
+        <input Type="text" Name="LastName" id="LastName">
+        <br>
+        <label for="Mobile">Mobile</label>
+        <input Type="text" Name="Mobile" id="Mobile" required>
+        <br>
+        <label for="Email">Email</label>
+        <input Type="text" Name="Email" id="Email">
+        <br>
+        <label>Gender</label>
+        <input Type="radio" Name="Gender" id="Male">
+        <label for="Male" style="color: blue">Male</label>
+        <input Type="radio" Name="Gender" id="Female">
+        <label for="Female" style="color:rgb(227, 29, 161)">Female</label>
+        <br>
+        <label for="State">State</label>
+        <select name="State" id="State">
+            <option value="">Select</option>
+            <option value="AP">Andra Pradesh</option>
+            <option value="uP">Uttar Pradesh</option>
+            <option value="MP">Madhya Pradesh</option>
+            <option value="TS">Telangana</option>
+            <option value="KA">Karnataka</option>
+            <option value="AR">Arunachal Pradesh</option>
+            <option value="HP">Himachal Pradesh</option>
+            <option value="JK">Jummu & Kashmir</option>
+            <option value="BR">Bihar</option>
+            <option value="GA">Goa</option>
+            <option value="KL">Kerala</option>
+            <option value="MN">Manipur</option>
+            <option value="PB">Punjab</option>
+            <option value="TN">Tamil Nadu</option>
+        </select>
+        <br>
+        <label for="State">State</label>
+        <input type="text" id="State" list="State-list">
+        <datalist id="State-list">
+            <option value="Andra Pradesh"></option>
+            <option value="Uttar Pradesh"></option>
+            <option value="Madhya Pradesh"></option>
+            <option value="Telangana"></option>
+            <option value="Karnataka"></option>
+            <option value="Arunachal Pradesh"></option>
+            <option value="Himachal Pradesh"></option>
+            <option value="Jummu & Kashmir"></option>
+            <option value="Bihar"></option>
+            <option value="Goa"></option>
+            <option value="Kerala"></option>
+            <option value="Manipur"></option>
+            <option value="Punjab"></option>
+            <option value="Tamil Nadu"></option>
+        </datalist>
+        <br>
+        </fieldset>
+        <fieldset>
+            <legend style="color: black;">Educational_Details</legend>
+            <label for="College Name">College Name</label>
+            <input Type="text" Name="College Name" id="College Name">
+            <br>
+            <label for="Section">Section</label>
+            <input Type="text" Name="Section" id="Section">
+            <br>
+            <label for="Branch">Branch</label>
+            <input Type="text" Name="Branch" id="Branch">
+            <br>
+            <label>Year Of Passed</label>
+            <input type="text" id="Year" list="Year-list">
+            <datalist id="Year-list">
+                <option>2024</option>
+                <option>2023></option>
+                <option>2022</option>
+                <option>2021</option>
+                <option>2020</option>
+                <option>2019</option>
+                <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>  
+            </datalist>
+            <br>
+            <label>Skills</label>
+            <br>
+            <input Type="checkbox" Name="Python" id="Python">
+            <label for="Python">Python</label>
+            <br>
+            <input Type="checkbox" Name="C" id="C">
+            <label for="C">C</label>
+            <br>
+            <input Type="checkbox" Name="Java" id="Java">
+            <label for="Java">Java</label>
+            <br>
+            <input Type="checkbox" Name="C++" id="C++">
+            <label for="C++">C++</label>
+            <br>
+            <input Type="checkbox" Name="SQL" id="SQL">
+            <label for="SQL">SQL</label>
+            <br>
+            <input Type="checkbox" Name="HTML" id="HTML">
+            <label for="HTML">HTML</label>
+            <br>
+        </fieldset>
+        </fieldset>
+        <button style="color: rgb(127, 4, 127); font-family: cursive;" Type="Reset">Reset</button>
+        <button style="color: rgb(127, 4, 127); font-family: cursive;" Type="Clear">Clear</button>
+<button style="color: rgb(127, 4, 127); font-family: cursive;">submit</button>
+    </form>    
+</body>
+</html>
