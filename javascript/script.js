@@ -48,12 +48,12 @@ Datatypes
 // }
 
 // Arrays
-let arr = [1, 2, "three", true, 5.0];
-// arr.push("new");
+// let arr = [1, 2, "three", true, 5.0];
+// arr.push()
 // arr.pop();
 // b = [...arr];
 // b[1] = 10;
-console.log(arr);
+// console.log(arr);
 
 // for (let i = 0; i < arr.length; i++) {
 //     console.log(arr[i]);
@@ -64,11 +64,43 @@ console.log(arr);
 // }
 
 // Objects
-let employee = {
-    name: "John",
-    designation: "SDE I",
-    salary: "600000",
-};
-employee.name = "Smith";
-let keys = Object.keys(employee);
-console.log(keys);
+// let employee = {
+//     name: "John",
+//     designation: "SDE I",
+//     salary: "600000",
+// };
+// employee.name = "Smith";
+// let keys = Object.keys(employee);
+// console.log(keys);
+
+// Functions
+// function sample(a, b, ...rest) {
+//     console.log(a, b, rest);
+// }
+
+// sample(1, 2, 3, 4);
+
+// let myFun = function (a, b) {
+//     return a + b;
+// };
+
+// let myFun = (a, b) => {
+//     return a + b;
+// };
+// let myFun = (a, b) => a + b;
+
+// let result = myFun(2, 3);
+// console.log(result);
+
+let a = [1, 2, 3, 4, 5, 6];
+
+let squares = a.map((element) => {
+    return element ** 2;
+});
+
+let even = a.filter((element) => {
+    if (element % 2 == 0) {
+        return element;
+    }
+});
+console.log(even);
