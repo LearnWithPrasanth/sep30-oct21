@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    border:1px solid gray;
+    /* height: 300px; */
+
+}
+.product{
+    border: 1px solid green;
+    width: 33%;
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+}
+span{
+   font-size: 25px;
+   color: aqua; 
+}
+.p1{
+    color: blue;
+}
+.p2{
+    color: rgb(255, 0, 21);
+}
